@@ -11,7 +11,7 @@ typedef struct {
     SEL selector;
     uint64_t time; /// 单位 us
     int depth;
-} AshCallRecord;
+} AshCallRecord;/// 单个方法结构体
 
 AshCallRecord * getCallRecords(void);
 int getRecordNumber(void);

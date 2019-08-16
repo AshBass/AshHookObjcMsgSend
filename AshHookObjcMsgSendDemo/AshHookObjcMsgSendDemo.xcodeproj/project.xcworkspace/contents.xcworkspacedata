@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:AshHookObjcMsgSend.xcodeproj">
+      location = "self:AshHookObjcMsgSendDemo.xcodeproj">
    </FileRef>
 </Workspace>

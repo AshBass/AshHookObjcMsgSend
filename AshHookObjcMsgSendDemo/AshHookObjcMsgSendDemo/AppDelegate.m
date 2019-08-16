@@ -1,3 +1,10 @@
+//
+//  AppDelegate.m
+//  AshHookObjcMsgSendDemo
+//
+//  Created by Harry Houdini on 2019/8/17.
+//  Copyright © 2019 CrimsonHo. All rights reserved.
+//
 
 #import "AppDelegate.h"
 #include "AshHookObjcMsgSend.h"

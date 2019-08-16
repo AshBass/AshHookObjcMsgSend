@@ -7,35 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		55479C2722D102FB006C2DF5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 55479C2622D102FB006C2DF5 /* AppDelegate.m */; };
-		55479C2A22D102FB006C2DF5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55479C2922D102FB006C2DF5 /* ViewController.m */; };
-		55479C2D22D102FB006C2DF5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55479C2B22D102FB006C2DF5 /* Main.storyboard */; };
-		55479C2F22D102FC006C2DF5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55479C2E22D102FC006C2DF5 /* Assets.xcassets */; };
-		55479C3222D102FC006C2DF5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55479C3022D102FC006C2DF5 /* LaunchScreen.storyboard */; };
-		55479C3522D102FC006C2DF5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 55479C3422D102FC006C2DF5 /* main.m */; };
-		55479C4722D103DA006C2DF5 /* AshHookObjcMsgSend.c in Sources */ = {isa = PBXBuildFile; fileRef = 55479C4322D103DA006C2DF5 /* AshHookObjcMsgSend.c */; };
-		55479C4822D103DA006C2DF5 /* fishhook.c in Sources */ = {isa = PBXBuildFile; fileRef = 55479C4422D103DA006C2DF5 /* fishhook.c */; };
+		55E7F9D1230777AB002A66C5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 55E7F9D0230777AB002A66C5 /* AppDelegate.m */; };
+		55E7F9D4230777AB002A66C5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55E7F9D3230777AB002A66C5 /* ViewController.m */; };
+		55E7F9D7230777AB002A66C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55E7F9D5230777AB002A66C5 /* Main.storyboard */; };
+		55E7F9D9230777AC002A66C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55E7F9D8230777AC002A66C5 /* Assets.xcassets */; };
+		55E7F9DC230777AC002A66C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55E7F9DA230777AC002A66C5 /* LaunchScreen.storyboard */; };
+		55E7F9DF230777AC002A66C5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 55E7F9DE230777AC002A66C5 /* main.m */; };
+		55E7F9EA23077816002A66C5 /* AshHookObjcMsgSend.c in Sources */ = {isa = PBXBuildFile; fileRef = 55E7F9E623077816002A66C5 /* AshHookObjcMsgSend.c */; };
+		55E7F9EB23077816002A66C5 /* fishhook.c in Sources */ = {isa = PBXBuildFile; fileRef = 55E7F9E723077816002A66C5 /* fishhook.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		55479C2222D102FB006C2DF5 /* AshHookObjcMsgSend.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AshHookObjcMsgSend.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		55479C2522D102FB006C2DF5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		55479C2622D102FB006C2DF5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		55479C2822D102FB006C2DF5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		55479C2922D102FB006C2DF5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		55479C2C22D102FB006C2DF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		55479C2E22D102FC006C2DF5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		55479C3122D102FC006C2DF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		55479C3322D102FC006C2DF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		55479C3422D102FC006C2DF5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		55479C4322D103DA006C2DF5 /* AshHookObjcMsgSend.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = AshHookObjcMsgSend.c; sourceTree = "<group>"; };
-		55479C4422D103DA006C2DF5 /* fishhook.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = fishhook.c; sourceTree = "<group>"; };
-		55479C4522D103DA006C2DF5 /* fishhook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fishhook.h; sourceTree = "<group>"; };
-		55479C4622D103DA006C2DF5 /* AshHookObjcMsgSend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AshHookObjcMsgSend.h; sourceTree = "<group>"; };
+		55E7F9CC230777AB002A66C5 /* AshHookObjcMsgSendDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AshHookObjcMsgSendDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		55E7F9CF230777AB002A66C5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		55E7F9D0230777AB002A66C5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		55E7F9D2230777AB002A66C5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		55E7F9D3230777AB002A66C5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		55E7F9D6230777AB002A66C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		55E7F9D8230777AC002A66C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		55E7F9DB230777AC002A66C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		55E7F9DD230777AC002A66C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55E7F9DE230777AC002A66C5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		55E7F9E623077816002A66C5 /* AshHookObjcMsgSend.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = AshHookObjcMsgSend.c; sourceTree = "<group>"; };
+		55E7F9E723077816002A66C5 /* fishhook.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = fishhook.c; sourceTree = "<group>"; };
+		55E7F9E823077816002A66C5 /* AshHookObjcMsgSend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AshHookObjcMsgSend.h; sourceTree = "<group>"; };
+		55E7F9E923077816002A66C5 /* fishhook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fishhook.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		55479C1F22D102FB006C2DF5 /* Frameworks */ = {
+		55E7F9C9230777AB002A66C5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -45,85 +45,86 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		55479C1922D102FB006C2DF5 = {
+		55E7F9C3230777AB002A66C5 = {
 			isa = PBXGroup;
 			children = (
-				55479C2422D102FB006C2DF5 /* AshHookObjcMsgSend */,
-				55479C2322D102FB006C2DF5 /* Products */,
+				55E7F9E523077816002A66C5 /* AshHookObjcMsgSend */,
+				55E7F9CE230777AB002A66C5 /* AshHookObjcMsgSendDemo */,
+				55E7F9CD230777AB002A66C5 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		55479C2322D102FB006C2DF5 /* Products */ = {
+		55E7F9CD230777AB002A66C5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				55479C2222D102FB006C2DF5 /* AshHookObjcMsgSend.app */,
+				55E7F9CC230777AB002A66C5 /* AshHookObjcMsgSendDemo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		55479C2422D102FB006C2DF5 /* AshHookObjcMsgSend */ = {
+		55E7F9CE230777AB002A66C5 /* AshHookObjcMsgSendDemo */ = {
 			isa = PBXGroup;
 			children = (
-				55479C4222D1039C006C2DF5 /* AshHookObjcMsgSend */,
-				55479C2522D102FB006C2DF5 /* AppDelegate.h */,
-				55479C2622D102FB006C2DF5 /* AppDelegate.m */,
-				55479C2822D102FB006C2DF5 /* ViewController.h */,
-				55479C2922D102FB006C2DF5 /* ViewController.m */,
-				55479C2B22D102FB006C2DF5 /* Main.storyboard */,
-				55479C2E22D102FC006C2DF5 /* Assets.xcassets */,
-				55479C3022D102FC006C2DF5 /* LaunchScreen.storyboard */,
-				55479C3322D102FC006C2DF5 /* Info.plist */,
-				55479C3422D102FC006C2DF5 /* main.m */,
+				55E7F9CF230777AB002A66C5 /* AppDelegate.h */,
+				55E7F9D0230777AB002A66C5 /* AppDelegate.m */,
+				55E7F9D2230777AB002A66C5 /* ViewController.h */,
+				55E7F9D3230777AB002A66C5 /* ViewController.m */,
+				55E7F9D5230777AB002A66C5 /* Main.storyboard */,
+				55E7F9D8230777AC002A66C5 /* Assets.xcassets */,
+				55E7F9DA230777AC002A66C5 /* LaunchScreen.storyboard */,
+				55E7F9DD230777AC002A66C5 /* Info.plist */,
+				55E7F9DE230777AC002A66C5 /* main.m */,
 			);
-			path = AshHookObjcMsgSend;
+			path = AshHookObjcMsgSendDemo;
 			sourceTree = "<group>";
 		};
-		55479C4222D1039C006C2DF5 /* AshHookObjcMsgSend */ = {
+		55E7F9E523077816002A66C5 /* AshHookObjcMsgSend */ = {
 			isa = PBXGroup;
 			children = (
-				55479C4522D103DA006C2DF5 /* fishhook.h */,
-				55479C4422D103DA006C2DF5 /* fishhook.c */,
-				55479C4622D103DA006C2DF5 /* AshHookObjcMsgSend.h */,
-				55479C4322D103DA006C2DF5 /* AshHookObjcMsgSend.c */,
+				55E7F9E923077816002A66C5 /* fishhook.h */,
+				55E7F9E723077816002A66C5 /* fishhook.c */,
+				55E7F9E823077816002A66C5 /* AshHookObjcMsgSend.h */,
+				55E7F9E623077816002A66C5 /* AshHookObjcMsgSend.c */,
 			);
-			path = AshHookObjcMsgSend;
+			name = AshHookObjcMsgSend;
+			path = ../AshHookObjcMsgSend;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		55479C2122D102FB006C2DF5 /* AshHookObjcMsgSend */ = {
+		55E7F9CB230777AB002A66C5 /* AshHookObjcMsgSendDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 55479C3822D102FC006C2DF5 /* Build configuration list for PBXNativeTarget "AshHookObjcMsgSend" */;
+			buildConfigurationList = 55E7F9E2230777AC002A66C5 /* Build configuration list for PBXNativeTarget "AshHookObjcMsgSendDemo" */;
 			buildPhases = (
-				55479C1E22D102FB006C2DF5 /* Sources */,
-				55479C1F22D102FB006C2DF5 /* Frameworks */,
-				55479C2022D102FB006C2DF5 /* Resources */,
+				55E7F9C8230777AB002A66C5 /* Sources */,
+				55E7F9C9230777AB002A66C5 /* Frameworks */,
+				55E7F9CA230777AB002A66C5 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = AshHookObjcMsgSend;
-			productName = AshHookObjcMsgSend;
-			productReference = 55479C2222D102FB006C2DF5 /* AshHookObjcMsgSend.app */;
+			name = AshHookObjcMsgSendDemo;
+			productName = AshHookObjcMsgSendDemo;
+			productReference = 55E7F9CC230777AB002A66C5 /* AshHookObjcMsgSendDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		55479C1A22D102FB006C2DF5 /* Project object */ = {
+		55E7F9C4230777AB002A66C5 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = CrimsonHo;
 				TargetAttributes = {
-					55479C2122D102FB006C2DF5 = {
+					55E7F9CB230777AB002A66C5 = {
 						CreatedOnToolsVersion = 10.2;
 					};
 				};
 			};
-			buildConfigurationList = 55479C1D22D102FB006C2DF5 /* Build configuration list for PBXProject "AshHookObjcMsgSend" */;
+			buildConfigurationList = 55E7F9C7230777AB002A66C5 /* Build configuration list for PBXProject "AshHookObjcMsgSendDemo" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -131,57 +132,57 @@
 				en,
 				Base,
 			);
-			mainGroup = 55479C1922D102FB006C2DF5;
-			productRefGroup = 55479C2322D102FB006C2DF5 /* Products */;
+			mainGroup = 55E7F9C3230777AB002A66C5;
+			productRefGroup = 55E7F9CD230777AB002A66C5 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				55479C2122D102FB006C2DF5 /* AshHookObjcMsgSend */,
+				55E7F9CB230777AB002A66C5 /* AshHookObjcMsgSendDemo */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		55479C2022D102FB006C2DF5 /* Resources */ = {
+		55E7F9CA230777AB002A66C5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				55479C3222D102FC006C2DF5 /* LaunchScreen.storyboard in Resources */,
-				55479C2F22D102FC006C2DF5 /* Assets.xcassets in Resources */,
-				55479C2D22D102FB006C2DF5 /* Main.storyboard in Resources */,
+				55E7F9DC230777AC002A66C5 /* LaunchScreen.storyboard in Resources */,
+				55E7F9D9230777AC002A66C5 /* Assets.xcassets in Resources */,
+				55E7F9D7230777AB002A66C5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		55479C1E22D102FB006C2DF5 /* Sources */ = {
+		55E7F9C8230777AB002A66C5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				55479C2A22D102FB006C2DF5 /* ViewController.m in Sources */,
-				55479C4822D103DA006C2DF5 /* fishhook.c in Sources */,
-				55479C4722D103DA006C2DF5 /* AshHookObjcMsgSend.c in Sources */,
-				55479C3522D102FC006C2DF5 /* main.m in Sources */,
-				55479C2722D102FB006C2DF5 /* AppDelegate.m in Sources */,
+				55E7F9D4230777AB002A66C5 /* ViewController.m in Sources */,
+				55E7F9EB23077816002A66C5 /* fishhook.c in Sources */,
+				55E7F9EA23077816002A66C5 /* AshHookObjcMsgSend.c in Sources */,
+				55E7F9DF230777AC002A66C5 /* main.m in Sources */,
+				55E7F9D1230777AB002A66C5 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		55479C2B22D102FB006C2DF5 /* Main.storyboard */ = {
+		55E7F9D5230777AB002A66C5 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				55479C2C22D102FB006C2DF5 /* Base */,
+				55E7F9D6230777AB002A66C5 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		55479C3022D102FC006C2DF5 /* LaunchScreen.storyboard */ = {
+		55E7F9DA230777AC002A66C5 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				55479C3122D102FC006C2DF5 /* Base */,
+				55E7F9DB230777AC002A66C5 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -189,7 +190,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		55479C3622D102FC006C2DF5 /* Debug */ = {
+		55E7F9E0230777AC002A66C5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -248,7 +249,7 @@
 			};
 			name = Debug;
 		};
-		55479C3722D102FC006C2DF5 /* Release */ = {
+		55E7F9E1230777AC002A66C5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -301,35 +302,35 @@
 			};
 			name = Release;
 		};
-		55479C3922D102FC006C2DF5 /* Debug */ = {
+		55E7F9E3230777AC002A66C5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 73RA2BRJSV;
-				INFOPLIST_FILE = AshHookObjcMsgSend/Info.plist;
+				INFOPLIST_FILE = AshHookObjcMsgSendDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = CrimsonHo.AshHookObjcMsgSend;
+				PRODUCT_BUNDLE_IDENTIFIER = CrimsonHo.AshHookObjcMsgSendDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		55479C3A22D102FC006C2DF5 /* Release */ = {
+		55E7F9E4230777AC002A66C5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 73RA2BRJSV;
-				INFOPLIST_FILE = AshHookObjcMsgSend/Info.plist;
+				INFOPLIST_FILE = AshHookObjcMsgSendDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = CrimsonHo.AshHookObjcMsgSend;
+				PRODUCT_BUNDLE_IDENTIFIER = CrimsonHo.AshHookObjcMsgSendDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -338,25 +339,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		55479C1D22D102FB006C2DF5 /* Build configuration list for PBXProject "AshHookObjcMsgSend" */ = {
+		55E7F9C7230777AB002A66C5 /* Build configuration list for PBXProject "AshHookObjcMsgSendDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				55479C3622D102FC006C2DF5 /* Debug */,
-				55479C3722D102FC006C2DF5 /* Release */,
+				55E7F9E0230777AC002A66C5 /* Debug */,
+				55E7F9E1230777AC002A66C5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		55479C3822D102FC006C2DF5 /* Build configuration list for PBXNativeTarget "AshHookObjcMsgSend" */ = {
+		55E7F9E2230777AC002A66C5 /* Build configuration list for PBXNativeTarget "AshHookObjcMsgSendDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				55479C3922D102FC006C2DF5 /* Debug */,
-				55479C3A22D102FC006C2DF5 /* Release */,
+				55E7F9E3230777AC002A66C5 /* Debug */,
+				55E7F9E4230777AC002A66C5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 55479C1A22D102FB006C2DF5 /* Project object */;
+	rootObject = 55E7F9C4230777AB002A66C5 /* Project object */;
 }
